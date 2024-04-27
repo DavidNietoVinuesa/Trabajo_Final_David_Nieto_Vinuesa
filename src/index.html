@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Señor de los Anillos</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="javascript.js" defer></script>
+</head>
+<body>
+<header>
+    <h1>El Señor de los Anillos</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="info.html">Información</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <!-- Sección para mostrar el tráiler de la película y el Anillo Único -->
+    <section id="trailer">
+        <h2>Tráiler</h2>
+        <div id="video-ring-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/iFOucwxKRFE?autoplay=1" allowfullscreen></iframe>
+            <div id="ring-section">
+                <h3>Toca el anillo único</h3>
+                <img src="src/anillo_unico.png" alt="Anillo Único" id="ring">
+            </div>
+        </div>
+    </section>
+
+    <!-- personajes-->
+    <section id="characters">
+        <h2>Personajes</h2>
+        <div class="character" data-description="El portador del Anillo, un hobbit valiente y decidido.">
+            <img src="frodo.png" alt="Frodo Bolsón">
+            <p>Frodo Bolsón</p>
+        </div>
+        <div class="character" data-description="El heredero del trono de Gondor, un valiente guerrero y líder.">
+            <img src="aragorn.jpg" alt="Aragorn">
+            <p>Aragorn</p>
+        </div>
+        <div class="character" data-description="Un poderoso mago, líder de la Comunidad del Anillo.">
+            <img src="gandalf.jpg" alt="Gandalf">
+            <p>Gandalf</p>
+        </div>
+    </section>
+
+    <section id="character-description"></section>
+</main>
+
+</body>
+</html>

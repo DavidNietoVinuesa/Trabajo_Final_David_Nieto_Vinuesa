@@ -1,0 +1,103 @@
+
+body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f1e8;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Estilo para la trama */
+#plot p {
+    font-size: 18px;
+}
+
+/* Estilo para la lista de premios */
+#awards ul {
+    font-style: italic;
+}
+
+/* Estilo para la sección de la Tierra Media */
+#lore {
+    background-color: #e0dedb;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#lore h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#lore p {
+    font-size: 18px;
+}
+
+#elf-name-generator {
+    background-color: #e0dedb;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#elf-name-generator h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#elf-name-generator label {
+    font-size: 18px;
+}
+
+#elf-name-generator input[type="text"],
+#elf-name-generator button {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#elf-name {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Estilos específicos para móviles */
+@media screen and (max-width: 600px) {
+    header {
+        padding: 20px 0;
+    }
+}

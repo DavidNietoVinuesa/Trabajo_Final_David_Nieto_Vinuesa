@@ -1,0 +1,100 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Estilo para el Anillo Único */
+#ring-section {
+    float: right;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 130px;
+}
+
+#ring {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilo para los personajes */
+#characters {
+    text-align: center;
+}
+
+.character {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.character img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.character p {
+    margin: 0;
+    text-align: center;
+}
+
+/* Tema corrupto */
+.corrupted {
+    background-color: #333;
+    color: #f00;
+}
+
+/* Descripción del personaje */
+#character-description {
+    font-style: italic;
+    color: chocolate;
+    text-align: center;
+}
+
+/* Estilos específicos para móviles */
+@media screen and (max-width: 600px) {
+    header {
+        padding: 20px 0;
+    }
+}
